@@ -4,7 +4,14 @@
     <PackageId>WebMarket.DbProvider</PackageId>
     <Version>0.1.0</Version>
     <Description>Access to the shared WebMarket PostgreSQL database via EF Core and Dapper</Description>
+    <Authors>Tarveiz</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Tarveiz/WebMarket.DbProvider</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Tarveiz/WebMarket.DbProvider</RepositoryUrl>
+    <PackageTags>webmarket;postgresql;efcore;dapper</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
   </PropertyGroup>
